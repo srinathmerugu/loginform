@@ -1,0 +1,116 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+
+html{
+    height: 100%;
+}
+#login{
+  width: 320px;
+  
+  font-size: 20px;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+
+  
+
+
+   box-sizing: border-box;
+  width: 300px;
+  height: 450px;
+  padding: 30px;  
+
+  border: 2px solid #4caf50;
+
+
+
+
+}
+
+
+h1{
+  float: left;
+  font-size: 40px;
+  border-bottom: 4px solid #4caf50;
+
+
+
+  }
+
+
+.btn{
+		color:white;
+		background: none;
+		width: 100%;
+		margin: 15px 0px;
+    padding: 5px ;
+		opacity: 2;
+    cursor: pointer;
+     border: 1px solid #4caf50;
+
+    
+}
+.btn:hover{
+  
+  opacity: 2;
+  color: white;
+}
+
+
+
+
+body{
+	background: url(black.jpg);
+	background-size: cover;
+  font-family: sans-serif; 
+  margin: 100;
+  padding: 50;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#mainNavbar .navbar-brand{
+  font-size:1.5rem;
+  color:white;
+}
+
+#mainNavbar .nav-link{
+  color: white;
+}
+input[type="text"]{
+   width: 82%;
+  border: none;
+  outline: none;
+  background: none;
+   color: white;
+   border-bottom: 1px solid #4caf50;
+   
+  margin: 0px 20px;
+
+
+
+}
+input[type="password"]{
+  width: 82%;
+  border: none;
+  outline: none;
+  background: none;
+   color: white;
+   border-bottom: 1px solid #4caf50;
+   
+  margin: 0px 20px;
+
+  
+
+}
+.for{
+  float: left;
+  padding-top: 10px;
+}
+.py-2 i{
+  width: 2px;
+  float: left;
+  text-align: center;
+
+}
